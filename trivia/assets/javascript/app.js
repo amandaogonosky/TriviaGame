@@ -1,21 +1,21 @@
 
-
-// this executes function on page load$
 $(function() {
     console.log( "ready!" );
 // ============== VARIABLES =============== //
     // console.log("working");
     var rights =0;
     var wrongs =0;
-    var timeCounter = 6;
+    var timeCounter = 5;
     var intervalId;
     // var runTime;
 
     // / =========== FUNCTIONS ============== //
         function reset(){
-        var timeCounter =6;
-        $("#timeDisplay").empty();
-        $(userGuess).siblings().last().empty();
+        var timeCounter = 5;
+        var wrongs = 4;
+        var rights = 4;
+        // $(".correct").off();
+        // $("#timeDisplay").empty();
 }
 
     $("#goButton").on("click",play);
@@ -35,7 +35,6 @@ $(function() {
         function timeUp(){
             clearInterval(intervalId);
             timeCounter = 6;
-
             }
 
     function results(){
@@ -48,7 +47,6 @@ $(function() {
         }
 
     }
-   
 // =========== EVENT LISTENERS ============ //
 
     // function gameOn(){
