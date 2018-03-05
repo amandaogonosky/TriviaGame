@@ -8,8 +8,12 @@ background-color: rgb(170, 34, 233);
 
 }
 #goButton{
-font-size: 24px;
-color: chartreuse;
+font-size: 30px;
+color: rgb(255, 115, 0);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: chartreuse;
+margin-top: 20px;
+
 }
 
 
@@ -45,14 +49,24 @@ margin-bottom: 14px;
 h2{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+font-size: 22px;
 font-style: italic;
 }
 
 #rights{
 font-family: cursive;
 background-color: lavenderblush;
+font-size: 25px;
 }
+.correct{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+}
+
+.incorrect{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    }
 
 #yourScore{
     font-size: 10px;
@@ -61,6 +75,7 @@ background-color: lavenderblush;
 #wrongs{
     font-family: cursive;
     background-color: lavenderblush;
+    font-size: 25px;
     }
 #q1{
 background-color: lemonchiffon;
