@@ -7,6 +7,12 @@ text-align: center;
 background-color: rgb(170, 34, 233);
 
 }
+#goButton{
+font-size: 24px;
+color: chartreuse;
+}
+
+
 #thumbnailfirst{
 width: 160px;
 height: 160px;
@@ -58,18 +64,22 @@ background-color: lavenderblush;
     }
 #q1{
 background-color: lemonchiffon;
+font-size: 25px;
 }
 
 #q2{
 background-color: lemonchiffon;
+font-size: 25px;
 }
 
 #q3{
 background-color: lemonchiffon;
+font-size: 25px;
     }
 
 
 #q4{
     background-color: lemonchiffon;
+    font-size: 25px;
     }
             
